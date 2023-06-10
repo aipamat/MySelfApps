@@ -18,6 +18,8 @@ import com.example.myselfapps.daily.DailyAdapter;
 import com.example.myselfapps.friends.Friends;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -36,7 +38,8 @@ public class MusicVideoFragment extends Fragment {
     private ArrayList<Music> musicArrayList;
     private String[] musicHeading;
     private int[] ImageResourceIDMusic;
-    private RecyclerView recylerviewMusic;
+    private RecyclerView recylerviewMusic, recyclerViewVideo;
+    private VideoAdapter videoAdapter;
 
     public MusicVideoFragment() {
         // Required empty public constructor
@@ -73,7 +76,9 @@ public class MusicVideoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_music_video, container, false);
+        View view = inflater.inflate(R.layout.fragment_music_video, container, false);
+        recyclerViewVideo = view.findViewById(R.id.rv_video);
+        return view;
     }
 
     @Override
@@ -86,6 +91,16 @@ public class MusicVideoFragment extends Fragment {
         MusicAdapter musicAdapter = new MusicAdapter(getContext(), musicArrayList);
         recylerviewMusic.setAdapter(musicAdapter);
         musicAdapter.notifyDataSetChanged();
+
+        List<VideoItem> videoItems = new ArrayList<>();
+        videoItems.add(new VideoItem("android.resource://" + requireContext().getPackageName() + "/" + R.raw.video_boypablo));
+        videoItems.add(new VideoItem("android.resource://" + requireContext().getPackageName() + "/" + R.raw.video_creep));
+        videoItems.add(new VideoItem("android.resource://" + requireContext().getPackageName() + "/" + R.raw.video_postmalone));
+        videoItems.add(new VideoItem("android.resource://" + requireContext().getPackageName() + "/" + R.raw.video_deathbed));
+
+        videoAdapter = new VideoAdapter(requireContext(), videoItems);
+        recyclerViewVideo.setLayoutManager(new LinearLayoutManager(requireContext()));
+        recyclerViewVideo.setAdapter(videoAdapter);
 
     }
 
