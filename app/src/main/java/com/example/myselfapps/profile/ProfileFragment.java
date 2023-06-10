@@ -21,6 +21,8 @@ import com.example.myselfapps.R;
  * create an instance of this fragment.
  */
 public class ProfileFragment extends Fragment {
+//    10 Juni 2023
+//    10120211 - Arif Rachmat Darmawan - IF6
     CardView cvContactMe, cvFind, cvAboutapps;
     String urlMaps = "https://maps.app.goo.gl/mp3fKGfBopgG6ZkYA";
     // TODO: Rename parameter arguments, choose names that match

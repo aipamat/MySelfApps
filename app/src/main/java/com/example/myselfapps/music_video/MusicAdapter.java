@@ -15,6 +15,8 @@ import com.google.android.material.imageview.ShapeableImageView;
 import java.util.ArrayList;
 
 public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.MusicViewHolder> {
+//    10 Juni 2023
+//    10120211 - Arif Rachmat Darmawan - IF6
     Context context;
     ArrayList<Music> musicArrayList;
 

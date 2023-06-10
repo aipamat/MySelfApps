@@ -17,6 +17,8 @@ import com.example.myselfapps.R;
 import java.util.List;
 
 public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHolder> {
+//    10 Juni 2023
+//    10120211 - Arif Rachmat Darmawan - IF6
 
     private Context context;
     private List<VideoItem> videoItems;

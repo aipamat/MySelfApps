@@ -11,6 +11,8 @@ import android.view.View;
 import com.example.myselfapps.R;
 
 public class ContactActivity extends AppCompatActivity {
+//    10 Juni 2023
+//    10120211 - Arif Rachmat Darmawan - IF6
     CardView cvEmail, cvWhatsapp, cvInstagram;
     String urlWhatsapp = "https://wa.link/3x2v77", urlEmail = "mailto:arifrd200211@gmail.com", urlInstagram = "https://www.instagram.com/itsmeaipp/";
 

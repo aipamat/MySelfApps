@@ -16,6 +16,8 @@ import com.example.myselfapps.MenuActivity;
 import com.example.myselfapps.R;
 
 public class OnboardingActivity extends AppCompatActivity {
+//    10 Juni 2023
+//    10120211 - Arif Rachmat Darmawan - IF6
     private ViewPager viewPager;
     private CardView next;
     private LinearLayout dotsLayout;

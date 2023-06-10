@@ -9,6 +9,8 @@ import android.os.Handler;
 import com.example.myselfapps.onboarding.OnboardingActivity;
 
 public class SplashActivity extends AppCompatActivity {
+//    10 Juni 2023
+//    10120211 - Arif Rachmat Darmawan - IF6
     private int waktu_loading = 2000;
 
     @Override

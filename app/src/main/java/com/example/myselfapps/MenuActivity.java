@@ -14,6 +14,8 @@ import com.example.myselfapps.music_video.MusicVideoFragment;
 import com.example.myselfapps.profile.ProfileFragment;
 
 public class MenuActivity extends AppCompatActivity {
+//    10 Juni 2023
+//    10120211 - Arif Rachmat Darmawan - IF6
 
     ActivityMenuBinding binding;
 

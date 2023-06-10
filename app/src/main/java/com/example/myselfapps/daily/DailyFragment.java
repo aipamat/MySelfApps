@@ -24,6 +24,8 @@ import java.util.ArrayList;
  * create an instance of this fragment.
  */
 public class DailyFragment extends Fragment {
+//    10 Juni 2023
+//    10120211 - Arif Rachmat Darmawan - IF6
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

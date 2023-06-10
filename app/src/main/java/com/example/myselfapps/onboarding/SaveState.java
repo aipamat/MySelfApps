@@ -4,7 +4,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 public class SaveState {
-
+//    10 Juni 2023
+//    10120211 - Arif Rachmat Darmawan - IF6
     private Context context;
     private String saveName;
     private SharedPreferences sp;

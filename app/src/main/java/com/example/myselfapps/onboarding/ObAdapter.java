@@ -14,6 +14,8 @@ import androidx.viewpager.widget.PagerAdapter;
 import com.example.myselfapps.R;
 
 public class ObAdapter extends PagerAdapter {
+//    10 Juni 2023
+//    10120211 - Arif Rachmat Darmawan - IF6
 
     private Context context;
     private LayoutInflater layoutInflater;

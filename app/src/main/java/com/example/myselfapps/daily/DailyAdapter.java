@@ -14,8 +14,9 @@ import com.google.android.material.imageview.ShapeableImageView;
 
 import java.util.ArrayList;
 
-public class DailyAdapter extends RecyclerView.Adapter<DailyAdapter.DailyViewHolder>{
-
+public class DailyAdapter extends RecyclerView.Adapter<DailyAdapter.DailyViewHolder> {
+//    10 Juni 2023
+//    10120211 - Arif Rachmat Darmawan - IF6
     Context context;
     ArrayList<Daily> dailyArrayList;
 
@@ -46,7 +47,7 @@ public class DailyAdapter extends RecyclerView.Adapter<DailyAdapter.DailyViewHol
         return dailyArrayList.size();
     }
 
-    public static class DailyViewHolder extends RecyclerView.ViewHolder{
+    public static class DailyViewHolder extends RecyclerView.ViewHolder {
 
         ShapeableImageView titleImageDaily;
         TextView tvHeadingDaily;

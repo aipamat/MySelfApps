@@ -11,7 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.myselfapps.R;
 
 public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.GalleryViewHolder> {
-
+//    10 Juni 2023
+//    10120211 - Arif Rachmat Darmawan - IF6
     public GalleryAdapter(int[] arr) {
         this.arr = arr;
     }
