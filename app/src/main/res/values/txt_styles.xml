@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PoppinsLight" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins_light</item>
+    </style>
+
+    <style name="PoppinsRegular" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextBlackPoppinsBold18Light" parent="PoppinsLight">
+        <item name="android:textColor">@color/txt_black</item>
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextWhitePoppinsBold18Light" parent="PoppinsLight">
+        <item name="android:textColor">@color/txt_white</item>
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextBluePoppinsBold18Regular" parent="PoppinsRegular">
+        <item name="android:textColor">@color/txt_blue</item>
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextBlackPoppinsBold14Light" parent="PoppinsLight">
+        <item name="android:textColor">@color/txt_black</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextBlackPoppinsBold14Regular" parent="PoppinsRegular">
+        <item name="android:textColor">@color/txt_black</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextWhitePoppinsBold14Regular" parent="PoppinsRegular">
+        <item name="android:textColor">@color/txt_white</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextBlackPoppins12Regular" parent="PoppinsRegular">
+        <item name="android:textColor">@color/txt_black3f</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="TextBlackPoppins10Regular" parent="PoppinsRegular">
+        <item name="android:textColor">@color/txt_black3f</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="TextBlackPoppins8Regular" parent="PoppinsRegular">
+        <item name="android:textColor">@color/txt_black3f</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+    </style>
+
+    <style name="TextBlackPoppinsItalic8Regular" parent="PoppinsRegular">
+        <item name="android:textColor">@color/txt_black</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">MySelfApps</string>
+    <string name="title1">Profile</string>
+    <string name="title2">Daily Activity</string>
+    <string name="title3">Gallery</string>
+    <string name="description1">Selamat datang di MyselfApps! Dengan fitur Profile, Anda dapat melihat foto diri saya dan deskripsi singkat tentang diri saya.</string>
+    <string name="description2">Lihat rutinitas harian saya tentang aktivitas sehari-hari dengan mudah.</string>
+    <string name="description3">Nikmati berbagai momen indah dalam hidup saya melalui fitur Gallery.</string>
+    <string name="name_profile">Arif Rachmat Darmawan</string>
+    <string name="description_profile">Mahasiswa semester 6 jurusan Teknik Informatika dari Universitas Komputer Indonesia. Memiliki ketertarikan dalam dunia programming di bidang Front-End Web Developer dan Android Developer.</string>
+    <string name="hobby">Hobby</string>
+    <string name="futsal">Futsal</string>
+    <string name="gaming">Bermain Game</string>
+    <string name="motoran">Motoran</string>
+    <string name="makes">Makes</string>
+    <string name="fast_food">Fast Food</string>
+    <string name="toast">Toast</string>
+    <string name="steak">Steak</string>
+    <string name="lemonade">Lemonade</string>
+    <string name="cocktail">Cocktail</string>
+    <string name="coffe">Coffe</string>
+    <string name="daily_activity">Daily Activity</string>
+    <string name="mikes">Mikes</string>
+    <string name="gallery">Gallery</string>
+    <string name="music_favorite">Music Favorite</string>
+    <string name="friends_list">Friends List</string>
+    <string name="video_favorite">Video Favorite</string>
+    <string name="background_fragment">Background Fragment</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="find_me">Find Me !</string>
+    <string name="about_apps">About Apps</string>
+    <string name="contact_me">Contact Me</string>
+    <string name="email">Email</string>
+    <string name="instagram">Instagram</string>
+
+    <!--    Daily Data RecylerView  -->
+    <string name="nama_kegiatan1">Beres - beres</string>
+    <string name="nama_kegiatan2">Ngopi</string>
+    <string name="nama_kegiatan3">Belajar</string>
+    <string name="nama_kegiatan4">Baca Buku</string>
+    <string name="nama_kegiatan5">Coding</string>
+    <string name="nama_kegiatan6">Tidur</string>
+
+    <!--    Friends Data RecylerView    -->
+    <string name="nama_teman1">Fajar</string>
+    <string name="nama_teman2">Adit</string>
+    <string name="nama_teman3">Naufal</string>
+    <string name="nama_teman4">Faris</string>
+    <string name="nama_teman5">Fahmi</string>
+    <string name="nama_teman6">Abyan</string>
+    <string name="nama_teman7">Tri</string>
+
+    <!--    Music Data RecylerView-->
+    <string name="nama_lagu1">Boy Pablo - Sick Feeling</string>
+    <string name="nama_lagu2">Radiohead - Creep</string>
+    <string name="nama_lagu3">Post Malone - Circles</string>
+    <string name="nama_lagu4">Powfu - Death Bed (Coffee for Your Head)</string>
+
+
+</resources>

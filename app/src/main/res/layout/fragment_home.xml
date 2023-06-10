@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    tools:context=".HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_background"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_265sdp"
+            android:background="@drawable/top_background"
+            android:contentDescription="@string/name_profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginTop="32dp"
+            android:contentDescription="@string/name_profile"
+            android:src="@drawable/profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/iv_name"
+            style="@style/TextBlackPoppinsBold14Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/name_profile"
+            app:layout_constraintEnd_toEndOf="@+id/iv_profile"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="@+id/iv_profile"
+            app:layout_constraintTop_toBottomOf="@+id/iv_profile" />
+
+        <TextView
+            android:id="@+id/iv_description_profile"
+            style="@style/TextBlackPoppins8Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:text="@string/description_profile"
+            app:layout_constraintEnd_toEndOf="@+id/iv_name"
+            app:layout_constraintStart_toStartOf="@+id/iv_name"
+            app:layout_constraintTop_toBottomOf="@+id/iv_name" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ll_container_hobby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_18sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_20sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_description_profile">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    style="@style/TextBlackPoppinsBold14Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/hobby" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp">
+
+                    <ImageView
+                        android:id="@+id/iv_futsal"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:contentDescription="@string/futsal"
+                        android:src="@drawable/img_football"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        style="@style/TextBlackPoppins8Regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/futsal"
+                        app:layout_constraintEnd_toEndOf="@+id/iv_futsal"
+                        app:layout_constraintStart_toStartOf="@+id/iv_futsal"
+                        app:layout_constraintTop_toBottomOf="@+id/iv_futsal" />
+
+                    <ImageView
+                        android:id="@+id/iv_gaming"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:contentDescription="@string/gaming"
+                        android:src="@drawable/img_gaming"
+                        app:layout_constraintEnd_toStartOf="@+id/iv_motoran"
+                        app:layout_constraintStart_toEndOf="@+id/iv_futsal"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        style="@style/TextBlackPoppins8Regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gaming"
+                        app:layout_constraintEnd_toEndOf="@+id/iv_gaming"
+                        app:layout_constraintStart_toStartOf="@+id/iv_gaming"
+                        app:layout_constraintTop_toBottomOf="@+id/iv_gaming" />
+
+                    <ImageView
+                        android:id="@+id/iv_motoran"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:contentDescription="@string/motoran"
+                        android:src="@drawable/img_motoran"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        style="@style/TextBlackPoppins8Regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/motoran"
+                        app:layout_constraintEnd_toEndOf="@+id/iv_motoran"
+                        app:layout_constraintStart_toStartOf="@+id/iv_motoran"
+                        app:layout_constraintTop_toBottomOf="@+id/iv_motoran" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ll_container_makes_mikes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_18sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_20sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_container_hobby">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    style="@style/TextBlackPoppinsBold14Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/makes" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp">
+
+                    <ImageView
+                        android:id="@+id/iv_food"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:contentDescription="@string/fast_food"
+                        android:src="@drawable/img_food"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        style="@style/TextBlackPoppins8Regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fast_food"
+                        app:layout_constraintEnd_toEndOf="@+id/iv_food"
+                        app:layout_constraintStart_toStartOf="@+id/iv_food"
+                        app:layout_constraintTop_toBottomOf="@+id/iv_food" />
+
+                    <ImageView
+                        android:id="@+id/iv_toast"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:contentDescription="@string/toast"
+                        android:src="@drawable/img_toast"
+                        app:layout_constraintEnd_toStartOf="@+id/iv_steak"
+                        app:layout_constraintStart_toEndOf="@+id/iv_food"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        style="@style/TextBlackPoppins8Regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/toast"
+                        app:layout_constraintEnd_toEndOf="@+id/iv_toast"
+                        app:layout_constraintStart_toStartOf="@+id/iv_toast"
+                        app:layout_constraintTop_toBottomOf="@+id/iv_toast" />
+
+                    <ImageView
+                        android:id="@+id/iv_steak"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:contentDescription="@string/steak"
+                        android:src="@drawable/img_steak"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        style="@style/TextBlackPoppins8Regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/steak"
+                        app:layout_constraintEnd_toEndOf="@+id/iv_steak"
+                        app:layout_constraintStart_toStartOf="@+id/iv_steak"
+                        app:layout_constraintTop_toBottomOf="@+id/iv_steak" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    style="@style/TextBlackPoppinsBold14Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/mikes" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp">
+
+                    <ImageView
+                        android:id="@+id/iv_lemonade"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:contentDescription="@string/lemonade"
+                        android:src="@drawable/img_lemonade"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        style="@style/TextBlackPoppins8Regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lemonade"
+                        app:layout_constraintEnd_toEndOf="@+id/iv_lemonade"
+                        app:layout_constraintStart_toStartOf="@+id/iv_lemonade"
+                        app:layout_constraintTop_toBottomOf="@+id/iv_lemonade" />
+
+                    <ImageView
+                        android:id="@+id/iv_cocktail"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:contentDescription="@string/cocktail"
+                        android:src="@drawable/img_cocktail"
+                        app:layout_constraintEnd_toStartOf="@+id/iv_coffe"
+                        app:layout_constraintStart_toEndOf="@+id/iv_lemonade"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        style="@style/TextBlackPoppins8Regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cocktail"
+                        app:layout_constraintEnd_toEndOf="@+id/iv_cocktail"
+                        app:layout_constraintStart_toStartOf="@+id/iv_cocktail"
+                        app:layout_constraintTop_toBottomOf="@+id/iv_cocktail" />
+
+                    <ImageView
+                        android:id="@+id/iv_coffe"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:contentDescription="@string/coffe"
+                        android:src="@drawable/img_coffe"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        style="@style/TextBlackPoppins8Regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/coffe"
+                        app:layout_constraintEnd_toEndOf="@+id/iv_coffe"
+                        app:layout_constraintStart_toStartOf="@+id/iv_coffe"
+                        app:layout_constraintTop_toBottomOf="@+id/iv_coffe" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
