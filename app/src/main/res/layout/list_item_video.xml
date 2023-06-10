@@ -4,14 +4,14 @@
     android:layout_marginBottom="@dimen/_15sdp">
 
     <VideoView
-        android:id="@+id/videoView"
+        android:id="@+id/vv_video"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_160sdp" />
 
     <ImageView
-        android:id="@+id/pauseButton"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:id="@+id/iv_pause"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
         android:src="@drawable/ic_pause"
         android:layout_gravity="center"
         android:visibility="invisible"

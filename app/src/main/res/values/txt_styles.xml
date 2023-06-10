@@ -44,10 +44,18 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="TextWhitePoppinsBold12Regular" parent="PoppinsRegular">
+        <item name="android:textColor">@color/txt_white</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="TextBlackPoppins12Regular" parent="PoppinsRegular">
         <item name="android:textColor">@color/txt_black3f</item>
         <item name="android:textSize">@dimen/_12ssp</item>
     </style>
+
+
 
     <style name="TextBlackPoppins10Regular" parent="PoppinsRegular">
         <item name="android:textColor">@color/txt_black3f</item>

@@ -1,5 +1,6 @@
 package com.example.myselfapps.profile;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.example.myselfapps.R;
 
@@ -89,8 +91,19 @@ public class ProfileFragment extends Fragment {
         cvAboutapps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), AboutAppsActivity.class);
-                startActivity(intent);
+                Dialog dialog = new Dialog(getContext());
+                dialog.setContentView(R.layout.activity_about_apps);
+                dialog.show();
+
+                Button btnKembali = dialog.findViewById(R.id.btn_kembali);
+                btnKembali.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+//                Intent intent = new Intent(getActivity(), AboutAppsActivity.class);
+//                startActivity(intent);
             }
         });
         return view;

@@ -32,8 +32,8 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHol
 
         public VideoViewHolder(@NonNull View itemView) {
             super(itemView);
-            videoView = itemView.findViewById(R.id.videoView);
-            pauseButton = itemView.findViewById(R.id.pauseButton);
+            videoView = itemView.findViewById(R.id.vv_video);
+            pauseButton = itemView.findViewById(R.id.iv_pause);
 
             pauseButton.setOnClickListener(new View.OnClickListener() {
                 @Override

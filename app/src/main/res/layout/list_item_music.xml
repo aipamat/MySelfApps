@@ -15,7 +15,7 @@
         android:layout_height="@dimen/_45sdp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/daily_beres_beres"
+        android:src="@drawable/music_boypablo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_10sdp"
         android:layout_marginEnd="@dimen/_10sdp"
-        android:text="@string/nama_kegiatan1"
+        android:text="@string/nama_lagu1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/siv_music"
